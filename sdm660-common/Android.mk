@@ -4,6 +4,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter DDV DRG PL2,$(TARGET_DEVICE)),)
+ifneq ($(filter CTL DDV DRG PL2,$(TARGET_DEVICE)),)
 
 endif
